@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'KuCoin';
+  src: url(https://www.kucoin.com/static/KuCoin.50f4bc08.ttf) format('truetype'),
+    url(https://www.kucoin.com/static/KuCoin.3e0a0952.woff) format('woff'),
+    url(https://www.kucoin.com/static/KuCoin.5a562bc6.svg#KuCoin) format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: URWDIN-Medium;
+  src: url(https://www.kucoin.com/static/URWDIN-Medium.f886593b.woff),
+    url(https://www.kucoin.com/static/URWDIN-Medium.91269cde.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: URWDIN-Regular;
+  src: url(https://www.kucoin.com/static/URWDIN-Regular.392d3b49.woff),
+    url(https://www.kucoin.com/static/URWDIN-Regular.42302b77.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('/assets/fonts/latin/Proxima-Nova-Font.woff') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Proxima';
+}
+body,
+html {
+  background: #111722;
+}
+.page-content {
+  background: #111722;
+}
+
+.walking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.cardgame {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding-top: 25px;
+}
+button {
+  box-shadow: none !important;
+}
+
+.home-section {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rightipic {
+    display: none;
+  }
+  .walking {
+    display: block;
+  }
+  .leftbarhome {
+    padding-top: 6% !important;
+    padding-left: 10% !important;
+  }
+  .numiset {
+    direction: rtl;
+  }
+  .content-card p {
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+  }
+  .content-card h3 {
+    font-size: 13px !important;
+  }
+  .cardd > img {
+    border-radius: 5px !important;
+  }
+  .textcas {
+    font-size: 15px !important;
+  }
+  #SvgIco {
+    width: 20px !important;
+  }
+}

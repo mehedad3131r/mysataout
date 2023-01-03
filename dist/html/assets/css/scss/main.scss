@@ -1,0 +1,17 @@
+$color:rgb(2, 40, 153);
+$df:#A20000;
+$polo:red;
+
+body{
+    background: $color; 
+}
+
+.pouria{
+    background-color: $polo;
+}
+.tip-pic-wins{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+ 
